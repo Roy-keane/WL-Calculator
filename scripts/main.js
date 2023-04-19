@@ -271,6 +271,12 @@ function calculator(btn) {
         
     }else if(btn.type == 'math_function') {
         
+        console.log("math")
+        let symbol,formula;
+        symbol = btn.symbol + "(";
+        formula =btn.formula + "(";
+        data.operation.push(btn.symbol)
+        data.formula.push(btn.formula)
     }else if(btn.type == 'key') {
         
     }
