@@ -290,6 +290,6 @@ function updateOutputOperation(operation) {
 
 function updateOutputResult(result) {
     output_result_element.innerHTML = result;
-}
+}l
 
 
